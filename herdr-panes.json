@@ -1,5 +1,5 @@
 [
   { "pane": 1, "name": "architect", "constitution": "constitution.md", "role": "architect.md" },
-  { "pane": 2, "name": "e2e_interpreter", "constitution": "constitution.md", "role": "e2e_interpreter.md" },
+  { "pane": 2, "name": "e2e-interpreter", "constitution": "constitution.md", "role": "e2e-interpreter.md" },
   { "pane": 3, "name": "coder", "constitution": "constitution.md", "role": "coder.md" }
 ]
