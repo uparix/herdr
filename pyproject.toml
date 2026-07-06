@@ -1,0 +1,11 @@
+[project]
+name = "herdr-claude-panes"
+version = "0.1.0"
+description = "Spin up one herdr pane per config entry, each running claude with a composed system prompt"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = []
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
