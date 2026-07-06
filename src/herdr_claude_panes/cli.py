@@ -99,6 +99,7 @@ def main() -> None:
             cmd += ["--append-system-prompt", "\n".join(parts)]
         herdr_cmd = shlex.join(cmd)
         subprocess.run(["herdr", "pane", "run", pane, herdr_cmd], check=True)
+        herdr("agent", "rename", pane, entry["name"])
 
 
 if __name__ == "__main__":
